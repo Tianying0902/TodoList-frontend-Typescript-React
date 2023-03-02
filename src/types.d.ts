@@ -1,5 +1,4 @@
-
-import {type} from 'os';
+import type from 'os';
 type ITodo = {id:number,task:string,completed:boolean}
 type ShowAllTodos =()=>void;
 type ShowActiveTodos=()=>void;
