@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import React from 'react';
 import { TodoList } from '../components/TodoList';
+import '@testing-library/jest-dom'
 
 test("render filter part", () => {
     const mockTodos = [{id:1,task:'Task 001',completed:true},{id:2,task:'Task 002',completed:false}]
